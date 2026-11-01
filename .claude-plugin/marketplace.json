@@ -1,0 +1,14 @@
+{
+  "name": "halfabyte",
+  "owner": {
+    "name": "Half a Byte"
+  },
+  "description": "Compile agent workflows, optimize them, and ship only what the firewall approves.",
+  "plugins": [
+    {
+      "name": "halfabyte-synapse",
+      "source": "./",
+      "description": "Compile agent workflows, optimize them, and ship only what the firewall approves."
+    }
+  ]
+}

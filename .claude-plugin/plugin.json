@@ -1,0 +1,17 @@
+{
+  "name": "halfabyte-synapse",
+  "displayName": "Synapse Compiler",
+  "version": "0.3.6",
+  "description": "Compile agent workflows, optimize them, and ship only what the firewall approves.",
+  "author": {
+    "name": "Half a Byte"
+  },
+  "license": "MIT",
+  "homepage": "https://pypi.org/project/halfabyte-synapse/",
+  "keywords": [
+    "agents",
+    "compiler",
+    "optimization",
+    "mcp"
+  ]
+}

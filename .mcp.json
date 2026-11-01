@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "synapse": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "halfabyte-synapse==0.3.6",
+        "synapse",
+        "mcp"
+      ]
+    }
+  }
+}
