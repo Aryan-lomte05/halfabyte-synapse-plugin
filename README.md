@@ -20,6 +20,10 @@ It sends nothing by default. If you set `SYNAPSE_API_KEY` to a Synapse Cloud pro
 `cloud_run` tools read that project over HTTPS. Tools that run a workflow call the model provider that workflow is
 configured for, on your own key. It never runs a workflow live: external steps are stubbed, irreversible ones refused.
 
+## Privacy
+
+[Privacy policy](PRIVACY.md)
+
 ## Licence
 
 MIT.
