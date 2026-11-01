@@ -39,7 +39,7 @@ wheels = [
 
 [[package]]
 name = "halfabyte-synapse"
-version = "0.3.6"
+version = "0.3.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "openai" },
@@ -48,20 +48,21 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "pyyaml" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/31/74/9869e4c39bb9256a4c53c7442958343ffa37cdfe5186a79d20af3f53ee77/halfabyte_synapse-0.3.7.tar.gz", hash = "sha256:d1e5b65e11b76b6c5c20c2d9bf924055021387803b263105519a99ee39040def", size = 1057057, upload-time = "2026-11-01T09:12:25.385Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/24/3564b95d5181ea6b8471e9aa4bc6d4a1a8424b546a25a345d84b2b5817f5/halfabyte_synapse-0.3.6-py3-none-any.whl", hash = "sha256:9239a5ba63ab883b2ebe6b2ddbadaff88f77b6aef0ac0e79662598133ddd7983", size = 1727349, upload-time = "2026-11-01T02:50:57.962Z" },
+    { url = "https://files.pythonhosted.org/packages/68/e0/d3e567673030eaedd48f69393b470b53d94b6a44b0326992fb96c707de69/halfabyte_synapse-0.3.7-py3-none-any.whl", hash = "sha256:f962510c6af004b001331216ea06cbd8b443d3b8bb3dea86a234fb758ad5aac1", size = 1000577, upload-time = "2026-11-01T09:12:22.681Z" },
 ]
 
 [[package]]
 name = "halfabyte-synapse-plugin"
-version = "0.3.6"
+version = "0.3.7"
 source = { virtual = "." }
 dependencies = [
     { name = "halfabyte-synapse" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "halfabyte-synapse", specifier = "==0.3.6" }]
+requires-dist = [{ name = "halfabyte-synapse", specifier = "==0.3.7" }]
 
 [[package]]
 name = "httpcore2"

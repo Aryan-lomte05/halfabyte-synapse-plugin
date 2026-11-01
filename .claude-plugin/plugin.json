@@ -1,7 +1,7 @@
 {
   "name": "halfabyte-synapse",
   "displayName": "Synapse Compiler",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Compile agent workflows, optimize them, and ship only what the firewall approves.",
   "author": {
     "name": "Half a Byte"
