@@ -13,6 +13,8 @@ A workflow you run may pass personal data through memory, if that is what you gi
 - **Your model provider.** A workflow you run calls the provider that workflow is set up for, on your own key. That provider's terms apply.
 - **Synapse Cloud, only if you set `SYNAPSE_API_KEY`.** The `cloud_dashboard` and `cloud_run` tools read your project over HTTPS. They send your key and, for `cloud_run`, a run ID. They send no prompts or answers, and nothing they send is stored as data.
 
+- **Alerts, only if you set them up.** If you configure Slack, email or WhatsApp alerts yourself, Synapse sends alert text, such as a workflow's name and a measurement, to the service you configured.
+
 The plugin sends no telemetry, and it sends nothing to Synapse Cloud unless you set that key.
 
 ## Server logs

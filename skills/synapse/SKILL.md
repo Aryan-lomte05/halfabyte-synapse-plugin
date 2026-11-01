@@ -6,7 +6,7 @@ description: Compile an AI agent workflow into a typed graph, optimize it, and c
 # Synapse
 
 Synapse splits a workflow into steps, labels what each step may touch, and only applies
-changes that label allows. Run it from the shell. Use `python -m synapse` if `synapse` is not
+changes that label allows. Use its MCP tools. The commands below are what a person can run in a terminal. Use `python -m synapse` if `synapse` is not
 on PATH (on Windows, `py -3 -m synapse`).
 
 ## See what an existing agent is doing
