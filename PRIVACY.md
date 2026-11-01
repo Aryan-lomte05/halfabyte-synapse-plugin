@@ -21,7 +21,7 @@ The Synapse Cloud server's access logs record each request's path, which can inc
 
 ## The Synapse Cloud website
 
-This policy covers the plugin. If you make an account on the website, it holds your email, phone number, a hashed password and the measurements your projects report. Those measurements stay until you delete them.
+This policy covers the plugin. If you make an account on the website, it holds your email, phone number, a hashed password and the measurements your projects report. You can export a project and revoke its keys. The website has no delete button yet, so to have an account or project deleted, open an issue below.
 
 ## Contact
 
