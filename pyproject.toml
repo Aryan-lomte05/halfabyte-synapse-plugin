@@ -1,0 +1,9 @@
+[project]
+name = "halfabyte-synapse-plugin"
+version = "0.3.6"
+description = "Runs the Synapse MCP server for the Claude plugin, at exact locked versions."
+requires-python = ">=3.11"
+dependencies = ["halfabyte-synapse==0.3.6"]
+
+[tool.uv]
+package = false

@@ -12,8 +12,8 @@ as payments and emails, are never reordered, repeated or cached.
 
 ## What it runs, sends and stores
 
-The MCP server runs on your machine with `uvx --from halfabyte-synapse==0.3.6 synapse mcp`, which downloads that
-exact package from PyPI, so you need [uv](https://docs.astral.sh/uv/). It stores graphs and measurements in a `data`
+The MCP server runs on your machine with `uv run --frozen`, which installs the exact versions and hashes in
+`uv.lock` from PyPI, so you need [uv](https://docs.astral.sh/uv/). It stores graphs and measurements in a `data`
 folder in your working directory.
 
 It sends nothing by default. If you set `SYNAPSE_API_KEY` to a Synapse Cloud project key, the `cloud_dashboard` and
